@@ -1,0 +1,419 @@
+.newTask {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+
+    position: absolute;
+    width: 736px;
+    height: 54px;
+    left: calc(50% - 736px/2);
+    top: 173px;
+}
+
+.newTask input {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px;
+    gap: 8px;
+    width: 638px;
+    height: 54px;
+    background: #262626;
+    color: white;
+    border: 1px solid #0D0D0D;
+    border-radius: 8px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.newTask button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 8px;
+
+    width: 90px;
+    height: 52px;
+    background: #1E6F9F;
+    border-radius: 8px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.newTask button img {
+
+width: 16px;
+height: 16px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.tasksEmpity {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 736px;
+    height: 287px;
+    left: calc(50% - 736px/2);
+    top: 291px;
+}
+
+.tasks {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 736px;
+    height: 451px;
+    left: calc(50% - 736px/2);
+    top: 291px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 561px;
+
+    width: 736px;
+    height: 19px;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.created {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+
+    width: 139px;
+    height: 19px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.taskCreated {
+    width: 106px;
+    height: 17px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #4EA8DE;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.counterTasks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 8px;
+    gap: 10px;
+
+    width: 25px;
+    height: 19px;
+
+    background: #333333;
+    border-radius: 999px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.counterTasks span {
+    width: 9px;
+    height: 15px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    
+    color: #D9D9D9;
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.doneEmpty {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+
+    width: 111px;
+    height: 19px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.done {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+
+    width: 138px;
+    height: 19px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.completedTasks {
+    width: 78px;
+    height: 17px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    /* Purple */
+
+    color: #8284FA;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.doneCounterEmpty {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 8px;
+    gap: 10px;
+
+    width: 25px;
+    height: 19px;
+
+    /* Gray 400 */
+
+    background: #333333;
+    border-radius: 999px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.doneCounter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 8px;
+    gap: 10px;
+    
+    width: 52px;
+    height: 19px;
+    
+    /* Gray 400 */
+    
+    background: #333333;
+    border-radius: 999px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.doneCounter span {
+    width: 38px;
+    height: 14px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    
+    
+    /* Gray 200 */
+    
+    color: #D9D9D9;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.doneCounterEmpty span {
+    width: 9px;
+    height: 15px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+
+    /* Gray 200 */
+
+    color: #D9D9D9;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.empty {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 24px;
+    gap: 16px;
+
+    width: 736px;
+    height: 244px;
+
+    /* Grey 400 */
+
+    border-top: 1px solid #333333;
+    border-radius: 8px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.empty img {
+    width: 56px;
+    height: 56px;
+
+    background: url(.png);
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.emptyText {
+    width: 688px;
+    height: 44px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+    text-align: center;
+
+    /* Gray 300 */
+
+    color: #808080;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.list {
+    /* List */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 736px;
+height: 408px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+
